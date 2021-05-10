@@ -1,0 +1,12 @@
+Client-side Data Fetching
+- the page is still pre-rendered #CSDF01
+- when data don't need to be pre-rendered #CSDF02
+  - data change frequently and don't need
+    to be seen by the search engines
+  - highly specific data like orders of
+    a user 
+- make sure you separate the util functions that
+  can only be used on the server side from others 
+  and put them in their own files. #CSDF03
+- you can combine pre-fetching with client-side fetching
+  - #CSDF04

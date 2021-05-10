@@ -1,0 +1,17 @@
+- static generation
+  - mainly for build time with some 
+    dynamic capabilities
+  - done via getStaticProps
+    - #SGSR01 
+  - and getStaticPaths
+    - #SGSR02
+  - Incremental Static Generation (ISR)
+    - #SGSR03 
+  - don't have access to incoming requests  
+
+- server-side rendering
+  - pre-render for every request
+  - if you need to access the request object
+
+- don't use static generation together with server-side rendering
+  in the same component 
